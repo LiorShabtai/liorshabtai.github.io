@@ -11,7 +11,7 @@
     --text: #1a1a1a;
     --muted: #555;
     --rule: #dcd6c8;
-    --bg: #faf5ea;            /* light parchment / cream (was #f9f4e8) */
+    --bg: #fbf6ec;            /* light parchment / cream (was #faf5ea, #f9f4e8) */
   }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -114,12 +114,12 @@
     -webkit-mask-composite: source-in; mask-composite: intersect;
   }
   html::before {
-    left: 0; background-image: url("hub-left.webp?v=4"); background-position: left center;
+    left: 0; background-image: url("hub-left.webp?v=5"); background-position: left center;
     -webkit-mask-image: linear-gradient(to right, #000 45%, transparent 100%), linear-gradient(to bottom, transparent 0, #000 12%, #000 88%, transparent 100%);
             mask-image: linear-gradient(to right, #000 45%, transparent 100%), linear-gradient(to bottom, transparent 0, #000 12%, #000 88%, transparent 100%);
   }
   body::before {
-    right: 0; background-image: url("hub-right.webp?v=4"); background-position: right center;
+    right: 0; background-image: url("hub-right.webp?v=5"); background-position: right center;
     -webkit-mask-image: linear-gradient(to left, #000 25%, transparent 100%), linear-gradient(to bottom, transparent 0, #000 12%, #000 88%, transparent 100%);
             mask-image: linear-gradient(to left, #000 25%, transparent 100%), linear-gradient(to bottom, transparent 0, #000 12%, #000 88%, transparent 100%);
   }
