@@ -114,6 +114,9 @@
   .more { margin-top: 6px; }
   .label { font-weight: 600; }
   .abstract + .pres { margin-top: 10px; }
+  .fig { margin: 14px 0 0; }
+  .fig img { width: 100%; height: auto; display: block; background: #fff; border: 1px solid var(--rule); border-radius: 3px; }
+  .fig figcaption { margin-top: 6px; font-size: 14.5px; color: var(--muted); text-align: center; }
   .abstract { margin: 8px 0 0; font-size: 15.5px; line-height: 1.6; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 
   /* background sketch of the Global Hub, visible in the side margins */
@@ -212,6 +215,10 @@
       <p>Draft coming soon</p>
       <div class="more" hidden>
         <p class="abstract"><span class="label">Abstract.</span> We show that the changing composition of corporate R&amp;D can help explain slower productivity growth despite rising R&amp;D spending. Classifying U.S. public firms&rsquo; R&amp;D over 1963&ndash;2022 using input&ndash;output tables, we document a shift toward consumer-oriented innovation and away from process innovation after around 2000. Following four decades of relative stability, the consumer share doubled and the process share fell 40 percent. Industry-level analysis shows that only process R&amp;D has a positive and significant relation with measured TFP growth. A counterfactual retaining the 2000 composition of R&amp;D implies 37 percent higher average annual TFP growth over 2001&ndash;2021, without additional spending. Most of the difference reflects reallocation toward consumer-oriented industries.</p>
+        <figure class="fig">
+          <a href="figures/rnd_shares.webp"><img src="figures/rnd_shares.webp" alt="Share of R&amp;D expenditure by type (consumer, intermediate goods, process), U.S. public firms, 1963&ndash;2022" loading="lazy" width="1600" height="980"></a>
+          <figcaption>Share of R&amp;D expenditure by type, U.S. public firms, 1963&ndash;2022.</figcaption>
+        </figure>
       </div>
     </div>
   </section>
